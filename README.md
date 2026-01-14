@@ -1,17 +1,16 @@
 # rucio-rest-api-usage-patterns
 
-![Work In Progress](https://img.shields.io/badge/status-WIP-yellow)
+## Summary
 
-Reference usage patterns with generated client examples demonstrating OIDC-authenticated access to the Rucio 39.0.0 REST API in common languages (Python, TypeScript).
+![Cancelled](https://img.shields.io/badge/status-Cancelled-red) due to unresolved OpenAPI spec validation errors that prevent reliable client generation. See [following issue](https://github.com/rucio/rucio/issues/8327) that won't be addressed.
 
-**NOTE:** The [Rucio openapi.json file](./rucio/openapi.json) was downloaded from https://rucio.cern.ch/documentation/html/rest_api_doc.html
-(click the `Download` button on the page).
+Reference usage patterns with generated client libraries in common languages (Python, TypeScript) capable of invoking Rucio 39.0.0 REST API.
 
----
-
-Generate Python and TypeScript clients/servers from OpenAPI specs using appropriate tools.
+**NOTE:** The [Rucio openapi.json file](./rucio/openapi.json) was downloaded from https://rucio.cern.ch/documentation/html/rest_api_doc.html (click the `Download` button on the page).
 
 ## Quick Start
+
+Generate Python and TypeScript clients/servers from OpenAPI specs using appropriate tools.
 
 ```bash
 # Generate code
